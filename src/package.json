@@ -1,0 +1,26 @@
+{
+  "name": "discord for fluxer bot",
+  "version": "0.0.0.1",
+  "description": "Nexus fluxer",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uaaw/fluxer-bridge.git"
+  },
+  "author": "uaaw",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "discord.js": "14.19.1",
+    "@fluxerjs/core": "^1.3.0",
+    "sequelize": "^6.32.0",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.1.4",
+    "npmlog": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
